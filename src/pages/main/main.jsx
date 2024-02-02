@@ -5,7 +5,6 @@ import Footer from "../../components/Footer/Footer";
 import { FaRegCopy } from "react-icons/fa";
 import Alert from "@mui/material/Alert";
 import Typewriter from "typewriter-effect";
-import loaderlogo from "../../components/Images/logo.png";
 
 function Main() {
     const fullAddress = "0xDc3AE0015B7Eda745E70BFad2d1D67Da9b4ec719";
