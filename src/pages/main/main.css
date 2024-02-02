@@ -524,6 +524,52 @@ section {
     padding: 40px 0 50px 0;
     text-align: center;
 }
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-logo {
+    animation: spin 5s linear infinite;
+}
+@keyframes fillChange {
+    0% {
+        fill: rgb(255, 255, 255);
+    }
+    25% {
+        fill: yellow;
+    }
+    50% {
+        fill: green;
+    }
+    75% {
+        fill: blue;
+    }
+    100% {
+        fill: red;
+    }
+}
+
+.svg-container svg path {
+    animation: fillChange 3s infinite;
+}
+
+.fullscreen-loader {
+    position: fixed; /* or absolute; depending on your layout */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 1000; /* Ensure it's above everything else */
+}
 
 /* CSS */
 .button-49,
