@@ -7,7 +7,7 @@ import Alert from "@mui/material/Alert";
 import Typewriter from "typewriter-effect";
 
 function Main() {
-    const fullAddress = "0xDc3AE0015B7Eda745E70BFad2d1D67Da9b4ec719";
+    const fullAddress = "0x1bbe7d72f9c0137f0e25f2d37e8af715a8ad43aa";
     const [displayAddress, setDisplayAddress] = useState(fullAddress);
     const [showAlert, setShowAlert] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
@@ -71,6 +71,14 @@ function Main() {
         <div className="flex flex-col justify-between relative min-h-screen overflow-hidden">
             {isLoading ? (
                 <div className="svg-container fullscreen-loader ">
+                    <video
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        className="absolute z-0 w-auto min-w-full min-h-full max-w-none">
+                        <source src={bg} type="video/mp4" />
+                    </video>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="200"

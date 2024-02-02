@@ -14,7 +14,7 @@ function Footer() {
                     <FaTelegram />
                 </a>
                 <a
-                    href="https://t.me/VirusQuarantinePortal"
+                    href="https://twitter.com/virus020324"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-2xl">

@@ -412,7 +412,7 @@ section {
 }
 
 .fade-in {
-    animation: fadeIn 3s ease-out;
+    animation: fadeIn 2s ease-out;
 }
 
 @keyframes movement {
