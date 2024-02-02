@@ -266,7 +266,7 @@ function Main() {
                             <div className="my-5">
                                 <a
                                     class="button-49"
-                                    href="https://www.google.com"
+                                    href="https://pancakeswap.finance/swap?outputCurrency=0x1bBe7d72f9C0137F0E25F2D37E8AF715a8ad43aA"
                                     role="button">
                                     <span className="mx-5">BUY $VIRUS</span>
                                 </a>
